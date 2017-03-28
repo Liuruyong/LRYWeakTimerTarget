@@ -15,6 +15,8 @@
 		04D40B7F1E8A92CC00660F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D40B7D1E8A92CC00660F14 /* LaunchScreen.storyboard */; };
 		04D40B8A1E8A92CD00660F14 /* LRYWeakTimerTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40B891E8A92CD00660F14 /* LRYWeakTimerTargetTests.m */; };
 		04D40B951E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40B941E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m */; };
+		04D40BA41E8A92F300660F14 /* LRYWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40BA31E8A92F300660F14 /* LRYWeakTimerTarget.m */; };
+		04D40BA71E8A95D400660F14 /* LRYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40BA61E8A95D400660F14 /* LRYTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		04D40B901E8A92CD00660F14 /* LRYWeakTimerTargetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRYWeakTimerTargetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D40B941E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRYWeakTimerTargetUITests.m; sourceTree = "<group>"; };
 		04D40B961E8A92CD00660F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D40BA21E8A92F300660F14 /* LRYWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRYWeakTimerTarget.h; sourceTree = "<group>"; };
+		04D40BA31E8A92F300660F14 /* LRYWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRYWeakTimerTarget.m; sourceTree = "<group>"; };
+		04D40BA51E8A95D400660F14 /* LRYTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRYTestViewController.h; sourceTree = "<group>"; };
+		04D40BA61E8A95D400660F14 /* LRYTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRYTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +111,15 @@
 				04D40B731E8A92CC00660F14 /* AppDelegate.m */,
 				04D40B751E8A92CC00660F14 /* ViewController.h */,
 				04D40B761E8A92CC00660F14 /* ViewController.m */,
+				04D40BA21E8A92F300660F14 /* LRYWeakTimerTarget.h */,
+				04D40BA31E8A92F300660F14 /* LRYWeakTimerTarget.m */,
 				04D40B781E8A92CC00660F14 /* Main.storyboard */,
 				04D40B7B1E8A92CC00660F14 /* Assets.xcassets */,
 				04D40B7D1E8A92CC00660F14 /* LaunchScreen.storyboard */,
 				04D40B801E8A92CC00660F14 /* Info.plist */,
 				04D40B6F1E8A92CC00660F14 /* Supporting Files */,
+				04D40BA51E8A95D400660F14 /* LRYTestViewController.h */,
+				04D40BA61E8A95D400660F14 /* LRYTestViewController.m */,
 			);
 			path = LRYWeakTimerTarget;
 			sourceTree = "<group>";
@@ -202,6 +212,7 @@
 		04D40B641E8A92CC00660F14 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LRY;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = liuruyong;
 				TargetAttributes = {
@@ -278,7 +289,9 @@
 			files = (
 				04D40B771E8A92CC00660F14 /* ViewController.m in Sources */,
 				04D40B741E8A92CC00660F14 /* AppDelegate.m in Sources */,
+				04D40BA41E8A92F300660F14 /* LRYWeakTimerTarget.m in Sources */,
 				04D40B711E8A92CC00660F14 /* main.m in Sources */,
+				04D40BA71E8A95D400660F14 /* LRYTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
