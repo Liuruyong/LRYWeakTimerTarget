@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D40B711E8A92CC00660F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40B701E8A92CC00660F14 /* main.m */; };
+		04D40B741E8A92CC00660F14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40B731E8A92CC00660F14 /* AppDelegate.m */; };
+		04D40B771E8A92CC00660F14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40B761E8A92CC00660F14 /* ViewController.m */; };
+		04D40B7A1E8A92CC00660F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D40B781E8A92CC00660F14 /* Main.storyboard */; };
+		04D40B7C1E8A92CC00660F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D40B7B1E8A92CC00660F14 /* Assets.xcassets */; };
+		04D40B7F1E8A92CC00660F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D40B7D1E8A92CC00660F14 /* LaunchScreen.storyboard */; };
+		04D40B8A1E8A92CD00660F14 /* LRYWeakTimerTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40B891E8A92CD00660F14 /* LRYWeakTimerTargetTests.m */; };
+		04D40B951E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D40B941E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D40B861E8A92CD00660F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D40B641E8A92CC00660F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D40B6B1E8A92CC00660F14;
+			remoteInfo = LRYWeakTimerTarget;
+		};
+		04D40B911E8A92CD00660F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D40B641E8A92CC00660F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D40B6B1E8A92CC00660F14;
+			remoteInfo = LRYWeakTimerTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D40B6C1E8A92CC00660F14 /* LRYWeakTimerTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRYWeakTimerTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D40B701E8A92CC00660F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D40B721E8A92CC00660F14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D40B731E8A92CC00660F14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D40B751E8A92CC00660F14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04D40B761E8A92CC00660F14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04D40B791E8A92CC00660F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D40B7B1E8A92CC00660F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D40B7E1E8A92CC00660F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D40B801E8A92CC00660F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D40B851E8A92CD00660F14 /* LRYWeakTimerTargetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRYWeakTimerTargetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D40B891E8A92CD00660F14 /* LRYWeakTimerTargetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRYWeakTimerTargetTests.m; sourceTree = "<group>"; };
+		04D40B8B1E8A92CD00660F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D40B901E8A92CD00660F14 /* LRYWeakTimerTargetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRYWeakTimerTargetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D40B941E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRYWeakTimerTargetUITests.m; sourceTree = "<group>"; };
+		04D40B961E8A92CD00660F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D40B691E8A92CC00660F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D40B821E8A92CD00660F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D40B8D1E8A92CD00660F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D40B631E8A92CC00660F14 = {
+			isa = PBXGroup;
+			children = (
+				04D40B6E1E8A92CC00660F14 /* LRYWeakTimerTarget */,
+				04D40B881E8A92CD00660F14 /* LRYWeakTimerTargetTests */,
+				04D40B931E8A92CD00660F14 /* LRYWeakTimerTargetUITests */,
+				04D40B6D1E8A92CC00660F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D40B6D1E8A92CC00660F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D40B6C1E8A92CC00660F14 /* LRYWeakTimerTarget.app */,
+				04D40B851E8A92CD00660F14 /* LRYWeakTimerTargetTests.xctest */,
+				04D40B901E8A92CD00660F14 /* LRYWeakTimerTargetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D40B6E1E8A92CC00660F14 /* LRYWeakTimerTarget */ = {
+			isa = PBXGroup;
+			children = (
+				04D40B721E8A92CC00660F14 /* AppDelegate.h */,
+				04D40B731E8A92CC00660F14 /* AppDelegate.m */,
+				04D40B751E8A92CC00660F14 /* ViewController.h */,
+				04D40B761E8A92CC00660F14 /* ViewController.m */,
+				04D40B781E8A92CC00660F14 /* Main.storyboard */,
+				04D40B7B1E8A92CC00660F14 /* Assets.xcassets */,
+				04D40B7D1E8A92CC00660F14 /* LaunchScreen.storyboard */,
+				04D40B801E8A92CC00660F14 /* Info.plist */,
+				04D40B6F1E8A92CC00660F14 /* Supporting Files */,
+			);
+			path = LRYWeakTimerTarget;
+			sourceTree = "<group>";
+		};
+		04D40B6F1E8A92CC00660F14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D40B701E8A92CC00660F14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D40B881E8A92CD00660F14 /* LRYWeakTimerTargetTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D40B891E8A92CD00660F14 /* LRYWeakTimerTargetTests.m */,
+				04D40B8B1E8A92CD00660F14 /* Info.plist */,
+			);
+			path = LRYWeakTimerTargetTests;
+			sourceTree = "<group>";
+		};
+		04D40B931E8A92CD00660F14 /* LRYWeakTimerTargetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D40B941E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m */,
+				04D40B961E8A92CD00660F14 /* Info.plist */,
+			);
+			path = LRYWeakTimerTargetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D40B6B1E8A92CC00660F14 /* LRYWeakTimerTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D40B991E8A92CD00660F14 /* Build configuration list for PBXNativeTarget "LRYWeakTimerTarget" */;
+			buildPhases = (
+				04D40B681E8A92CC00660F14 /* Sources */,
+				04D40B691E8A92CC00660F14 /* Frameworks */,
+				04D40B6A1E8A92CC00660F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRYWeakTimerTarget;
+			productName = LRYWeakTimerTarget;
+			productReference = 04D40B6C1E8A92CC00660F14 /* LRYWeakTimerTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D40B841E8A92CD00660F14 /* LRYWeakTimerTargetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D40B9C1E8A92CD00660F14 /* Build configuration list for PBXNativeTarget "LRYWeakTimerTargetTests" */;
+			buildPhases = (
+				04D40B811E8A92CD00660F14 /* Sources */,
+				04D40B821E8A92CD00660F14 /* Frameworks */,
+				04D40B831E8A92CD00660F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D40B871E8A92CD00660F14 /* PBXTargetDependency */,
+			);
+			name = LRYWeakTimerTargetTests;
+			productName = LRYWeakTimerTargetTests;
+			productReference = 04D40B851E8A92CD00660F14 /* LRYWeakTimerTargetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D40B8F1E8A92CD00660F14 /* LRYWeakTimerTargetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D40B9F1E8A92CD00660F14 /* Build configuration list for PBXNativeTarget "LRYWeakTimerTargetUITests" */;
+			buildPhases = (
+				04D40B8C1E8A92CD00660F14 /* Sources */,
+				04D40B8D1E8A92CD00660F14 /* Frameworks */,
+				04D40B8E1E8A92CD00660F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D40B921E8A92CD00660F14 /* PBXTargetDependency */,
+			);
+			name = LRYWeakTimerTargetUITests;
+			productName = LRYWeakTimerTargetUITests;
+			productReference = 04D40B901E8A92CD00660F14 /* LRYWeakTimerTargetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D40B641E8A92CC00660F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = liuruyong;
+				TargetAttributes = {
+					04D40B6B1E8A92CC00660F14 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A3FM5DCBEJ;
+						ProvisioningStyle = Automatic;
+					};
+					04D40B841E8A92CD00660F14 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A3FM5DCBEJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04D40B6B1E8A92CC00660F14;
+					};
+					04D40B8F1E8A92CD00660F14 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A3FM5DCBEJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04D40B6B1E8A92CC00660F14;
+					};
+				};
+			};
+			buildConfigurationList = 04D40B671E8A92CC00660F14 /* Build configuration list for PBXProject "LRYWeakTimerTarget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D40B631E8A92CC00660F14;
+			productRefGroup = 04D40B6D1E8A92CC00660F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D40B6B1E8A92CC00660F14 /* LRYWeakTimerTarget */,
+				04D40B841E8A92CD00660F14 /* LRYWeakTimerTargetTests */,
+				04D40B8F1E8A92CD00660F14 /* LRYWeakTimerTargetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D40B6A1E8A92CC00660F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D40B7F1E8A92CC00660F14 /* LaunchScreen.storyboard in Resources */,
+				04D40B7C1E8A92CC00660F14 /* Assets.xcassets in Resources */,
+				04D40B7A1E8A92CC00660F14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D40B831E8A92CD00660F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D40B8E1E8A92CD00660F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D40B681E8A92CC00660F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D40B771E8A92CC00660F14 /* ViewController.m in Sources */,
+				04D40B741E8A92CC00660F14 /* AppDelegate.m in Sources */,
+				04D40B711E8A92CC00660F14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D40B811E8A92CD00660F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D40B8A1E8A92CD00660F14 /* LRYWeakTimerTargetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D40B8C1E8A92CD00660F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D40B951E8A92CD00660F14 /* LRYWeakTimerTargetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D40B871E8A92CD00660F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D40B6B1E8A92CC00660F14 /* LRYWeakTimerTarget */;
+			targetProxy = 04D40B861E8A92CD00660F14 /* PBXContainerItemProxy */;
+		};
+		04D40B921E8A92CD00660F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D40B6B1E8A92CC00660F14 /* LRYWeakTimerTarget */;
+			targetProxy = 04D40B911E8A92CD00660F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D40B781E8A92CC00660F14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D40B791E8A92CC00660F14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D40B7D1E8A92CC00660F14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D40B7E1E8A92CC00660F14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D40B971E8A92CD00660F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04D40B981E8A92CD00660F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D40B9A1E8A92CD00660F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3FM5DCBEJ;
+				INFOPLIST_FILE = LRYWeakTimerTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ry.LRYWeakTimerTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04D40B9B1E8A92CD00660F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3FM5DCBEJ;
+				INFOPLIST_FILE = LRYWeakTimerTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ry.LRYWeakTimerTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04D40B9D1E8A92CD00660F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3FM5DCBEJ;
+				INFOPLIST_FILE = LRYWeakTimerTargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ry.LRYWeakTimerTargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRYWeakTimerTarget.app/LRYWeakTimerTarget";
+			};
+			name = Debug;
+		};
+		04D40B9E1E8A92CD00660F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3FM5DCBEJ;
+				INFOPLIST_FILE = LRYWeakTimerTargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ry.LRYWeakTimerTargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRYWeakTimerTarget.app/LRYWeakTimerTarget";
+			};
+			name = Release;
+		};
+		04D40BA01E8A92CD00660F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A3FM5DCBEJ;
+				INFOPLIST_FILE = LRYWeakTimerTargetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ry.LRYWeakTimerTargetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LRYWeakTimerTarget;
+			};
+			name = Debug;
+		};
+		04D40BA11E8A92CD00660F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A3FM5DCBEJ;
+				INFOPLIST_FILE = LRYWeakTimerTargetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ry.LRYWeakTimerTargetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LRYWeakTimerTarget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D40B671E8A92CC00660F14 /* Build configuration list for PBXProject "LRYWeakTimerTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D40B971E8A92CD00660F14 /* Debug */,
+				04D40B981E8A92CD00660F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D40B991E8A92CD00660F14 /* Build configuration list for PBXNativeTarget "LRYWeakTimerTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D40B9A1E8A92CD00660F14 /* Debug */,
+				04D40B9B1E8A92CD00660F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D40B9C1E8A92CD00660F14 /* Build configuration list for PBXNativeTarget "LRYWeakTimerTargetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D40B9D1E8A92CD00660F14 /* Debug */,
+				04D40B9E1E8A92CD00660F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D40B9F1E8A92CD00660F14 /* Build configuration list for PBXNativeTarget "LRYWeakTimerTargetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D40BA01E8A92CD00660F14 /* Debug */,
+				04D40BA11E8A92CD00660F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D40B641E8A92CC00660F14 /* Project object */;
+}
